@@ -37,7 +37,7 @@ class _QuizItemState extends State<QuizItem> {
           ],
         ),
         Padding(
-          padding: const EdgeInsets.all(12.0),
+          padding: const EdgeInsets.only(left: 2,top: 12,bottom: 12,right: 2),
           child: Column(
             children: widget.quiz.answers.map((answer) => Row(
               children: [
